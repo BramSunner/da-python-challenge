@@ -51,8 +51,7 @@ for key in elecRes.keys():
     print(f"{key}: {elecRes[key]/vote:,.2%} ({elecRes[key]:,})")
 
 print(f"------------------------------")
-print(f"Winner: {max(elecRes, key = elecRes.get)}") #https://stackoverflow.com/questions/268272/getting-key-with-maximum-value-in-dictionary
-
+print(f"Winner: {max(elecRes, key = elecRes.get)}")
 
 # This is the path to our new text file for analysis.
 txtfile = "Submission\\PyPoll\\analysis\\election_data.txt"
