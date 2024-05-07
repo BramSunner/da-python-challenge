@@ -43,7 +43,7 @@ Resources for the project as csv files.
 Output for the project as text files.
 
 # Acknowledgements
-In main.py of PyPoll on line 54 and line 72, the max() function used was something that I grabbed from:
+In main.py of PyPoll on line 56 and line 74, the max() function used was something that I grabbed from:
 
 Coady, A. (2008, November 11). Comment on _Getting key with maximum value in dictionary?_. [Online forum post]. 
   https://stackoverflow.com/questions/268272/getting-key-with-maximum-value-in-dictionary
