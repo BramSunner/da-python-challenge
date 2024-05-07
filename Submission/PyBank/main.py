@@ -3,10 +3,11 @@
 
 
 import csv
+import os
 
 # Declare a variable to store a path to our csvfile
 # This is the full path to our desired file:    C:\Users\emteb\Desktop\msu_data\homework\da-python-challenge\Submission\PyBank\Resources\budget_data.csv
-file = 'Submission\\PyBank\\Resources\\budget_data.csv'
+file = os.path.dirname(os.path.realpath(__file__)) + "\\Resources\\budget_data.csv"
 
 # Declare two variables to store data from the csvfile
 # budgetDate:   a list of all the entries within the first column of the csvfile titled "Date"

@@ -3,10 +3,12 @@
 
 
 import csv
+import os
 
 # Declare a variable to store a path to our csvfile
 # This is the full path to our desired file:    C:\Users\emteb\Desktop\msu_data\homework\da-python-challenge\Submission\PyPoll\Resources\election_data.csv
-file = "Submission\\PyPoll\\Resources\\election_data.csv"
+# Note: changed to grab part of the path dynamically.
+file = os.path.dirname(os.path.realpath(__file__)) + "\\Resources\\election_data.csv"
 
 # Declare variables for our program: vote, elecRes.
 # vote: a counter for the amount of votes for the election.
