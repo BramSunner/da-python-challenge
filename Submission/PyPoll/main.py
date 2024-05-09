@@ -56,7 +56,7 @@ print(f"------------------------------")
 print(f"Winner: {max(elecRes, key = elecRes.get)}")
 
 # This is the path to our new text file for analysis.
-txtfile = "Submission\\PyPoll\\analysis\\election_data.txt"
+txtfile = os.path.dirname(os.path.realpath(__file__)) + "\\analysis\\election_data.txt"
 
 # Open up the file... and write to it. Same stuff as above but different format.
 # Note: we use str.format() to mimic most of our fstring things from above.

@@ -76,7 +76,7 @@ print(f"Greatest Increase in Profits: {inc[1]} ${inc[0]:,.2f}")
 print(f"Greatest Decrease in Profits: {dec[1]} ${dec[0]:,.2f}")
 
 # This is the filepath to print our analysis data to.
-txtfile = "Submission\\PyBank\\analysis\\budget_data.txt"
+txtfile = os.path.dirname(os.path.realpath(__file__)) + "\\analysis\\budget_data.txt"
 
 # Open the file and write all the information to it.
 # This is about the same as the print statements above but using str.format() instead of fstrings.
